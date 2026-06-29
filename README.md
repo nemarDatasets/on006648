@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006648-blue)](https://doi.org/10.82901/nemar.on006648)
+
 Understanding how the brain engages with poetic language is key to advancing empirical research on aesthetic and creative cognition. This experiment involved 64-channel EEG recordings and behavioural ratings from 51 participants who read and evaluated 210 short English-language texts — 70 Haiku (nature-themed), 70 Senryu (emotion-themed), and 70 non-poetic Control texts. Each poem/text was rated on five subjective dimensions: Aesthetic Appeal, Vivid Imagery, Being Moved, Originality, and Creativity — using a 7-point scale.
 
 The full study involved 51 participants, and the data were divided into two BIDS-compliant datasets to ensure technical validation and facilitate upload to OpenNeuro. 
