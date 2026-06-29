@@ -1,28 +1,86 @@
 {
   "version": "2.0",
-  "dataset_id": "on006648",
-  "source": "openneuro",
-  "source_id": "ds006648",
+  "pipeline_stage": "validated",
   "title": "Poetry Assessment EEG Dataset 1",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Soma Chaudhuri": {},
     "Joydeep Bhattacharya": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006648.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006648",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006648",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "48.7 GB (113 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".json",
+    ".loc",
+    ".m",
+    ".md",
+    ".pdf",
+    ".set",
+    ".tsv",
+    ".txt",
+    ".xlsx",
+    ".yml"
+  ],
+  "description": "This dataset comprises 64-channel EEG recordings and behavioral ratings from 47 participants (Poetry Assessment EEG Dataset 1 of a two-part series containing 51 total participants) who read and evaluated 210 short English-language texts (70 Haiku, 70 Senryu, and 70 control texts) while rating them on five subjective dimensions: Aesthetic Appeal, Vivid Imagery, Being Moved, Originality, and Creativity. The study investigates neural correlates of poetic language processing and aesthetic cognition, with continuous EEG data that passed technical validation and were used in primary analyses. Complementary psychometric assessments and resting-state EEG recordings are included. A companion dataset (Poetry Assessment EEG Dataset 2) contains recordings from the remaining 4 participants whose EEG data were acquired in segments due to session interruptions.",
+  "methods_description": "64-channel EEG recordings were acquired during a reading task in which participants evaluated 210 texts (70 Haiku, 70 Senryu, 70 control texts) across five subjective dimensions using a 7-point scale. Resting-state EEG was recorded at the beginning and end of each session. Participants completed trait-level questionnaires including PANAS, Openness, Curiosity, VVIQ, AVIQ, MAAS, and AReA. Data collection occurred at the Department of Psychology, Goldsmiths University of London, UK, and was approved by the Local Ethics Committee. This dataset (Dataset 1) includes 47 participants whose continuous EEG recordings passed technical validation and were used in primary analyses. A companion dataset (Dataset 2) contains data from 4 additional participants whose EEG recordings were acquired in segments and later concatenated during preprocessing.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "aesthetic cognition"
+    },
+    {
+      "term": "poetic language"
+    },
+    {
+      "term": "creative cognition"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "behavioral ratings"
+    },
+    {
+      "term": "resting-state"
+    },
+    {
+      "term": "haiku"
+    },
+    {
+      "term": "senryu"
+    },
+    {
+      "term": "psychometric assessment"
+    },
+    {
+      "term": "questionnaire"
+    }
+  ],
+  "source_hash": "b48bb33a4977571b386b8889e98ed257de8826c823866053b0938e56ef1c7c29"
 }
