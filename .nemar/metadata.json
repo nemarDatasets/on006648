@@ -2,12 +2,42 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Poetry Assessment EEG Dataset 1",
+  "description": "This dataset comprises 64-channel EEG recordings and behavioural ratings from 47 participants who read and evaluated 210 short English-language texts, including Haiku, Senryu, and non-poetic Control texts. Each text was rated on five subjective dimensions: Aesthetic Appeal, Vivid Imagery, Being Moved, Originality, and Creativity. The dataset supports research into the neural and cognitive processes underlying aesthetic and creative engagement with poetic language, and includes resting-state EEG segments recorded before and after the experimental session.",
+  "methods_description": "EEG data were recorded using a 64-channel BioSemi system while participants read and rated poetic and non-poetic texts on five dimensions using a 7-point scale. Behavioural ratings and psychometric questionnaire responses (e.g., PANAS, Openness, VVIQ, AVIQ, MAAS, AReA) were collected alongside EEG. Resting-state EEG was recorded at the start and end of each session, identifiable via specific trigger codes in the events.tsv files. Preprocessing was performed using a MATLAB script (Preprocessing.m) with channel locations defined via BioSemi64.loc.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Soma Chaudhuri": {},
     "Joydeep Bhattacharya": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "poetry"
+    },
+    {
+      "term": "aesthetic cognition"
+    },
+    {
+      "term": "Creativity",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003405"
+    },
+    {
+      "term": "Emotion-Focused Therapy",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000071441"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "psycholinguistics"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006648.v1.0.0",
@@ -25,10 +55,10 @@
       "relation_type": "IsDescribedBy"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "48.7 GB (113 files)"
   ],
@@ -44,43 +74,6 @@
     ".txt",
     ".xlsx",
     ".yml"
-  ],
-  "description": "This dataset comprises 64-channel EEG recordings and behavioral ratings from 47 participants (Poetry Assessment EEG Dataset 1 of a two-part series containing 51 total participants) who read and evaluated 210 short English-language texts (70 Haiku, 70 Senryu, and 70 control texts) while rating them on five subjective dimensions: Aesthetic Appeal, Vivid Imagery, Being Moved, Originality, and Creativity. The study investigates neural correlates of poetic language processing and aesthetic cognition, with continuous EEG data that passed technical validation and were used in primary analyses. Complementary psychometric assessments and resting-state EEG recordings are included. A companion dataset (Poetry Assessment EEG Dataset 2) contains recordings from the remaining 4 participants whose EEG data were acquired in segments due to session interruptions.",
-  "methods_description": "64-channel EEG recordings were acquired during a reading task in which participants evaluated 210 texts (70 Haiku, 70 Senryu, 70 control texts) across five subjective dimensions using a 7-point scale. Resting-state EEG was recorded at the beginning and end of each session. Participants completed trait-level questionnaires including PANAS, Openness, Curiosity, VVIQ, AVIQ, MAAS, and AReA. Data collection occurred at the Department of Psychology, Goldsmiths University of London, UK, and was approved by the Local Ethics Committee. This dataset (Dataset 1) includes 47 participants whose continuous EEG recordings passed technical validation and were used in primary analyses. A companion dataset (Dataset 2) contains data from 4 additional participants whose EEG recordings were acquired in segments and later concatenated during preprocessing.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "aesthetic cognition"
-    },
-    {
-      "term": "poetic language"
-    },
-    {
-      "term": "creative cognition"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "behavioral ratings"
-    },
-    {
-      "term": "resting-state"
-    },
-    {
-      "term": "haiku"
-    },
-    {
-      "term": "senryu"
-    },
-    {
-      "term": "psychometric assessment"
-    },
-    {
-      "term": "questionnaire"
-    }
   ],
   "source_hash": "b48bb33a4977571b386b8889e98ed257de8826c823866053b0938e56ef1c7c29"
 }
