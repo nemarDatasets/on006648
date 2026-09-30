@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Poetry Assessment EEG Dataset 1",
-  "description": "This dataset comprises 64-channel EEG recordings and behavioural ratings from 47 participants who read and evaluated 210 short English-language texts, including Haiku, Senryu, and non-poetic Control texts. Each text was rated on five subjective dimensions: Aesthetic Appeal, Vivid Imagery, Being Moved, Originality, and Creativity. The dataset supports research into the neural and cognitive processes underlying aesthetic and creative engagement with poetic language, and includes resting-state EEG segments recorded before and after the experimental session.",
-  "methods_description": "EEG data were recorded using a 64-channel BioSemi system while participants read and rated poetic and non-poetic texts on five dimensions using a 7-point scale. Behavioural ratings and psychometric questionnaire responses (e.g., PANAS, Openness, VVIQ, AVIQ, MAAS, AReA) were collected alongside EEG. Resting-state EEG was recorded at the start and end of each session, identifiable via specific trigger codes in the events.tsv files. Preprocessing was performed using a MATLAB script (Preprocessing.m) with channel locations defined via BioSemi64.loc.",
+  "description": "This dataset contains 64-channel EEG recordings and behavioural ratings from participants who read and evaluated 210 short English-language texts: 70 Haiku, 70 Senryu, and 70 non-poetic control texts. Each text was rated on aesthetic appeal, vivid imagery, being moved, originality, and creativity. This first of two BIDS datasets includes 47 participants whose recordings passed technical validation. Psychometric questionnaire data and resting-state EEG are also provided.",
+  "methods_description": "64-channel EEG (BioSemi layout) was recorded while participants read poems and control texts across seven blocks and rated each on a 7-point scale for five subjective dimensions. Resting-state EEG was recorded at the beginning and end of each session. Trait questionnaires (PANAS, Openness, Curiosity, VVIQ, AVIQ, MAAS, AReA) were also collected. Data were collected at the Department of Psychology, Goldsmiths, University of London.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,24 +18,19 @@
       "term": "poetry"
     },
     {
-      "term": "aesthetic cognition"
+      "term": "aesthetic appeal"
     },
     {
-      "term": "Creativity",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003405"
+      "term": "creativity"
     },
     {
-      "term": "Emotion-Focused Therapy",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000071441"
+      "term": "reading"
     },
     {
-      "term": "resting state"
+      "term": "Haiku"
     },
     {
-      "term": "psycholinguistics"
+      "term": "Senryu"
     }
   ],
   "related_identifiers": [
@@ -60,7 +55,7 @@
     "eeg"
   ],
   "sizes": [
-    "48.7 GB (113 files)"
+    "45.40 GB (113 files)"
   ],
   "formats": [
     ".csv",
